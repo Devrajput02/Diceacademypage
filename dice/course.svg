@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="MDI_message-bookmark" data-name="MDI / message-bookmark" transform="translate(0)">
+    <g id="Boundary" transform="translate(0)" fill="#66cc85" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <path id="Path_message-bookmark" data-name="Path / message-bookmark" d="M4.5,2h20A2.507,2.507,0,0,1,27,4.5V27l-5-5H4.5A2.507,2.507,0,0,1,2,19.5V4.5A2.507,2.507,0,0,1,4.5,2M5.75,15.75l3.125-1.875L12,15.75v-10H5.75Z" transform="translate(0.5 0.5)" fill="#66cc85"/>
+  </g>
+</svg>

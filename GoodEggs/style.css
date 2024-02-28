@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(LucyTheCatRegular-Bg9x.ttf);
+}
+
+.img-container {
+    background-image: url(hero-background.43390939.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+
+
+.nav>.main-col>img {
+
+    height: 96px;
+    width: 120px;
+}
+
+.nav-btn {
+    background-color: white;
+    height: 40px;
+    width: 110px;
+    letter-spacing: 2px;
+    font-size: 11px;
+
+
+}
+
+.all-contain>h3 {
+    font-family: myfont;
+    font-size: 22px;
+}
+
+.text-contain {
+    margin-top: 10.5rem;
+    margin-left: 5rem;
+    font-size: 45px;
+    font-family: myfont;
+}
+
+
+.shop {
+    margin-left: 5rem;
+}
+
+.shop>div {
+    width: 210px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.caption {
+    font-size: 9px;
+    margin-left: 5rem;
+    color: white;
+}
+
+.for-para>p {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.hr-contain {
+    background-color: white;
+    border: 2px solid white;
+    padding: 0;
+}
+
+.love {
+    text-align: center;
+    font-size: 22px;
+    font-family: myfont;
+}
+
+
+.row-1 {
+    margin-top: 6rem;
+}
+
+.row-2 {
+    margin-top: 3rem;
+}
+
+.row-3 {
+    margin-top: 3rem;
+}
+
+.row-4 {
+    margin-top: 3rem;
+}
+
+.para {
+    align-self: center;
+    color: white;
+    font-family: myfont;
+}
+
+.for-img {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.main>h3 {
+    font-family: myfont;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.carousel-item {
+    background: transparent;
+    text-align: center;
+    height: 300px;
+}
+
+.carousel-caption{
+    text-align: center;
+}
+
+.text-lol{
+    padding-top: 8rem;
+}
+
+.end>span{
+    font-size: 45px;
+    font-family: myfont;
+}
+
+
+.shop2{
+    justify-content: center;
+}
+
+.shop2>div{
+
+    width: 210px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.img-logo{
+    margin-left: 3rem;
+}
+
+@media(min-width:1366px)
+{
+
+
+    @media(min-width:539px) and (max-width:991px){
+
+        .img-logo{
+            margin-left: 15px;
+    }
+
+}
+
+@media(max-width:540px){
+
+
+    .img-logo{
+        margin-left: 0;
+    }
+    
+}

@@ -1,0 +1,465 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    height: 97px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px 1px grey;
+}
+
+.head {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-list {
+
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+
+}
+
+
+.slider {
+
+    max-height: 60vh;
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes slider {
+    0% {
+        background: url(budapest1.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    20% {
+        background: url(budapest1.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    25% {
+        background: url(thailand-Ist.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    45% {
+        background: url(thailand-Ist.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    60% {
+        background: url(prague.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    70% {
+        background: url(prague.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    80% {
+        background: url(amsterdam.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+
+    100% {
+        background: url(amsterdam.jpg);
+        background-size: 100% 100%;
+        height: 30em;
+    }
+}
+
+.head-1 {
+    margin-top: 15px;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #07c6ff;
+}
+
+.para-1 {
+    font-size: 1.1em;
+    width: 80%;
+    text-align: center;
+    margin: 1em auto;
+    font-weight: 600;
+}
+
+
+.para-2 {
+
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.contain>img {
+    width: 90%;
+}
+
+.contain>h3 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.contain>p {
+
+    text-align: justify;
+    letter-spacing: 0.6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #3e3d3d;
+    font-size: 16.2px;
+    line-height: 20px;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.trips {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.trips>h2 {
+
+    text-align: center;
+    color: black;
+}
+
+.trips>.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.trips>.items>div {
+
+    width: 25%;
+    margin-top: 15px;
+}
+
+.trips>.items>div>img {
+    width: 75%;
+    border: 0.4em solid white;
+    border-radius: 0 1em;
+    margin: 0 1.5em;
+}
+
+.tours {
+
+    
+}
+
+.tours>h2 {
+
+    margin: 0;
+    padding-top: 15px;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    color: #07c6ff;
+}
+
+.tours>.items2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tours>.items2>div {
+    width: 25%;
+    margin: 0 auto 3em;
+    text-align: center;
+}
+
+
+.locate{
+    color: #000000;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+.tours>.items2>div>a>img {
+    width: 75%;
+    border: 0.4em solid white;
+    border-radius: 0 1em;
+    margin: 0 1.5em;
+    height: 250px;
+}
+
+.international>h2{
+    text-align: center;
+    color: black;
+}
+
+
+.international>.section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.international>.section>.items3{
+
+    margin: 0 auto 3em;
+    text-align: center;
+    width: 25%;
+}
+
+.international>.section>.items3>a>img{
+
+    width: 75%;
+    border: 0.4em solid white;
+    border-radius: 0 1em;
+    margin: 0 1.5em;
+}
+
+
+.international>.section>.items3>.locate{
+
+    color: #000000;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer{
+
+    background-color: #07c6ff;
+    position: relative;
+    top: 0px;
+}
+
+.footer-top{
+
+
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.caption>h3{
+    text-align: center;
+    margin-bottom: 1.8em;
+}
+
+.name>input{
+    width: 270px;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit>button{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffb307;
+    color: white;
+}
+
+.terms{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.connect>div>a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.privacy>a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    color: black;
+    font-weight: 600;
+}
+
+h3{
+    text-align: center;
+    margin: 1.8em 0;
+}
+
+.contact>.call{
+    text-align: center;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.contact>.call>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    padding: 1px;
+}
+
+.footer-contact{
+    background: url(footer-bg.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 18em;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.car{
+    background: url(volks.gif) no-repeat center center;
+    width: 19.6em;
+    height: 6.5em;
+    background-size: 100%;
+    position: relative;
+    top: 62%;
+    left: 120%;
+    animation: volks 10s linear infinite;
+    z-index: 9;
+}
+
+@keyframes volks {
+    0% {
+        left: -15%;
+    }
+}
+
+.cyclist{
+    background: url(cyclist.gif) no-repeat center center;
+    width: 6.3em;
+    height: 6.7em;
+    background-size: 100%;
+    position: relative;
+    top: 22%;
+    left: 100%;
+    animation: cyclist 15s linear infinite;
+    z-index: 9;
+}
+
+@keyframes cyclist {
+    0% {
+        left: -15%;
+    }
+
+    100% {
+        left: 120%;
+    }
+}
+
+.walking{
+    background: url(walking1.webp) no-repeat center center;
+    width: 7em;
+    height: 13em;
+    background-size: 100%;
+    position: relative;
+    top: -90px;
+    left: 100%;
+    animation: walking 25s linear infinite;
+    z-index: 99;
+}
+
+@keyframes walking {
+    0% {
+        left: -15%;
+    }
+
+    100% {
+        left: 120%;
+    }
+}
+
+.footer-second{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.two>a{
+    text-decoration: none;
+    color: #ba0101;
+    font-weight: bolder;
+}
